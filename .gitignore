@@ -1,0 +1,9 @@
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+*.pyc
+.env
+.venv/
+venv/
+# Keep the dataset local unless you have permission to publish it
+data/*.csv
