@@ -7,9 +7,8 @@ A cleaned and reproducible machine-learning notebook based on the supplied Diabe
 .
 ├── data/
 │   └── Diabetes Classification.csv   
-├── notebooks/
+├── notebook/
 │   ├── Diabetes_Classification_Analysis.ipynb
-│   └── Diabetes_Classification_Original.ipynb
 ├── reports/
 ├── src/
 ├── requirements.txt
@@ -22,7 +21,7 @@ A cleaned and reproducible machine-learning notebook based on the supplied Diabe
    ```bash
    pip install -r requirements.txt
    ```
-2. Open `notebooks/Diabetes_Classification_Analysis.ipynb`.
+2. Open `notebook/Diabetes_Classification_Analysis.ipynb`.
 3. Run all cells from top to bottom.
 
 ## Important
