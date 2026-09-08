@@ -6,7 +6,7 @@ A cleaned and reproducible machine-learning notebook based on the supplied Diabe
 ```text
 .
 ├── data/
-│   └── Diabetes Classification.csv   # add locally; not included in the supplied files
+│   └── Diabetes Classification.csv   
 ├── notebooks/
 │   ├── Diabetes_Classification_Analysis.ipynb
 │   └── Diabetes_Classification_Original.ipynb
@@ -22,18 +22,8 @@ A cleaned and reproducible machine-learning notebook based on the supplied Diabe
    ```bash
    pip install -r requirements.txt
    ```
-2. Put `Diabetes Classification.csv` in `data/`.
-3. Open `notebooks/Diabetes_Classification_Analysis.ipynb`.
-4. Run all cells from top to bottom.
-
-## What was fixed
-
-- Corrected the SyntaxError in the SVM ROC-curve f-string.
-- Corrected the selected-feature train/test split.
-- Corrected the SVM selected-feature classification report.
-- Removed the machine-specific absolute data path.
-- Added train-only preprocessing/feature selection and scaling.
-- Completed all four assignment tasks.
+2. Open `notebooks/Diabetes_Classification_Analysis.ipynb`.
+3. Run all cells from top to bottom.
 
 ## Important
 
